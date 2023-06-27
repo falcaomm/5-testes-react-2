@@ -12,7 +12,6 @@ function ProductsList({ products, addToCart }) {
     return (
         <section>
             <h2>Products</h2>
-
             <Content>
                 {products.map(product => (
                     <ProductCard
